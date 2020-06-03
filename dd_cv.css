@@ -24,7 +24,7 @@ sup {
 
 /* Avoid the breaking within a section [use 'auto' to allow breaks] */
 .blocks {
-  break-inside: auto;
+  break-inside: avoid-page;
 }
 
 * {

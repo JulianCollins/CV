@@ -67,7 +67,14 @@ Contact {#contact}
 CV %>% print_contact_info()
 ```
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 Language / Software {#skills}
 --------------------------------------------------------------------------------
@@ -106,7 +113,7 @@ Industry Experience {data-icon=laptop}
 
 ::: aside
 ```{r}
-# CV %<>% print_text_block('industy_experience_aside')
+CV %<>% print_text_block('industy_experience_aside')
 ```
 :::
 
@@ -148,14 +155,12 @@ CV %<>% print_section('education')
 <!-- CV %<>% print_section('teaching_positions') -->
 <!-- ``` -->
 
-<br>
-
 Other Data Science {data-icon=chart-line}
 --------------------------------------------------------------------------------
 
 ::: aside
 ```{r}
-# CV %<>% print_text_block('data_science_writing_aside')
+CV %<>% print_text_block('data_science_writing_aside')
 ```
 :::
 
