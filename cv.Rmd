@@ -54,9 +54,9 @@ Aside
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _https://github.com/JulianCollins/cv/raw/master/juliancollins_cv.html_")
+  cat("View this CV online with links at https://juliancollins.github.io/")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/JulianCollins/cv/raw/master/juliancollins_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/JulianCollins/CV/blob/master/cv.pdf)")
 }
 ```
 
@@ -148,7 +148,6 @@ CV %<>% print_section('education')
 <!-- CV %<>% print_section('teaching_positions') -->
 <!-- ``` -->
 
-<br>
 <br>
 
 Other Data Science {data-icon=chart-line}
