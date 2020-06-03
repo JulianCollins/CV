@@ -8,7 +8,7 @@
 # Knit the HTML version
 rmarkdown::render("cv.Rmd",
                   params = list(pdf_mode = FALSE),
-                  output_file = "cv.html")
+                  output_file = "juliancollins_cv.html")
 
 # Knit the PDF version to temporary html location
 tmp_html_cv_loc <- fs::file_temp(ext = ".html")
@@ -18,4 +18,4 @@ rmarkdown::render("cv.Rmd",
 
 # Convert to PDF using Pagedown
 pagedown::chrome_print(input = tmp_html_cv_loc,
-                       output = "cv.pdf")
+                       output = "juliancollins_cv.pdf")
